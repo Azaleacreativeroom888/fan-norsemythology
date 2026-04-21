@@ -2,47 +2,157 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>北欧神話設定資料サイト</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Kamuy Fan Log</title>
   <style>
     body {
       margin: 0;
-      font-family: "メイリオ", sans-serif;
-      background: #a1b8e6;
-      background-attachment: fixed;
-      color: black;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .intro {
+      margin-bottom: 30px;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      border-left: 4px solid #888;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .post {
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #1a1a1a;
+      border-radius: 5px;
+    }
+
+    .post a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .post p {
+      margin: 5px 0 0;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #333;
+      font-size: 12px;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1>北欧神話が好き</h1>
 
-  <p>
-    ※このサイトは、北欧神話および関連する伝承・作品をモチーフにしたオリジナル世界観・オリジナルキャラクターの設定資料サイトです。実在の神話解釈・作品・公式関係者様とは一切関係ありません。
-  </p>
+  <header>
+    <h1>Norse Mythology Fan Log</h1>
+    <nav>
+      <a href="blog.html">BLOG</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="about.html">ABOUT</a>
+    </nav>
+  </header>
 
-  <h2>このサイトについて</h2>
-  <p>
-    北欧神話やその後世の解釈（オペラ・伝承など）を参考に、独自の設定・キャラクター資料をまとめています。神話や原典の正確な再現を目的としたものではありません。
-  </p>
+  <div class="container">
 
-  <h2>北欧神話の登場人物</h2>
-  <ul>
-    <li><a href="odin.html">オーディン</a></li>
-    <li><a href="loki.html">ロキ</a></li>
-    <li><a href="thor.html">トール</a></li>
-    <li><a href="alberich.html">アルベリヒ</a></li>
-    <li><a href="rheintochter.html">ヴェルグンデ／ヴォークリンデ／フロスヒルデ</a></li>
-    <li><a href="frigg.html">フリッグ</a></li>
-    <li><a href="freyja.html">フレイヤ</a></li>
-    <li><a href="giants.html">霜の巨人</a></li>
-    <li><a href="fafnir.html">ファフニール</a></li>
-    <li><a href="erda.html">エルダ</a></li>
-    <li><a href="siegmund.html">ジークムント</a></li>
-  </ul>
+    <div class="intro">
+      <p>
+        このサイトは『北欧神話』について、好きなことを自由に語るための場所です。<br>
+        正しい解釈とかじゃなくて、「ここ好き」「なんか分からないけど良い」を大事にしてます。
+      </p>
+    </div>
 
-  <p>注意：当サイトに掲載されている画像・文章・作品について、AI学習への利用、トレース（トレパク）、無断転載・転載、二次利用を禁止します。当サイト内の作品・文章について、スクリーンショットの転載は禁止および無断引用はご遠慮ください。</p>
-  <p>Notice:Please refrain from using any images, text, or works on this website for AI training, tracing, unauthorized reproduction, redistribution, or secondary use. Screenshots and unauthorized quotations of the content on this website are not allowed.</p>
-  
+    <div class="section">
+      <h2>Latest Posts</h2>
+
+      <div class="post">
+        <a href="#">第○話のこのシーンが好きすぎる</a>
+        <p>感情がぐちゃぐちゃになるやつ</p>
+      </div>
+
+      <div class="post">
+        <a href="#">この表情なんなんだろう</a>
+        <p>分からないけどめちゃくちゃ好き</p>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <h2>Illustration</h2>
+
+      <div class="gallery">
+        <img src="img1.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img3.jpg" alt="">
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© Fan Log</p>
+  </footer>
+
 </body>
 </html>
